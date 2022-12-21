@@ -1,0 +1,272 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4734265699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user should navigate to Computer Page successfully",
+        "description": "",
+        "id": "computer-page-test;verify-user-should-navigate-to-computer-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 641997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 90056400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "ComputerPageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 873225900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Computers menu tab",
+            "match": {
+              "location": "ComputerPageSteps.iClickOnComputersMenuTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39768199,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am navigated to the Computers page successfully",
+            "match": {
+              "location": "ComputerPageSteps.iAmNavigatedToTheComputersPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Smoke"
+          },
+          {
+            "line": 4,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Computer Page Test",
+    "description": "As a user I want to use the different features on the Computer Page",
+    "id": "computer-page-test",
+    "keyword": "Feature",
+    "uri": "ComputerPage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2522954601,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user should be able to navigate to Login page successfully",
+        "description": "",
+        "id": "login-page-test;verify-user-should-be-able-to-navigate-to-login-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 636580700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "ComputerPageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 845382700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the login link",
+            "match": {
+              "location": "LoginPageSteps.iClickOnTheLoginLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51311101,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to the Login page and see message \"Welcome, Please Sign In!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome, Please Sign In!",
+                  "offset": 46
+                }
+              ],
+              "location": "LoginPageSteps.iNavigateToTheLoginPageAndSeeMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Smoke"
+          },
+          {
+            "line": 4,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page Test",
+    "description": "As a user i want to Log in to the nop commerce website",
+    "id": "login-page-test",
+    "keyword": "Feature",
+    "uri": "LoginPage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2497741801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify user should navigate to Register page successfully",
+        "description": "",
+        "id": "register-page-test;verify-user-should-navigate-to-register-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 644046900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 44201,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "ComputerPageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 411099000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on register link",
+            "match": {
+              "location": "RegisterPageSteps.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47278100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am navigated to the Register page",
+            "match": {
+              "location": "RegisterPageSteps.iAmNavigatedToTheRegisterPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Smoke"
+          },
+          {
+            "line": 5,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Register Page Test",
+    "description": "\r\nAs a user I am able to register on the nop commerce website",
+    "id": "register-page-test",
+    "keyword": "Feature",
+    "uri": "RegisterPage.feature"
+  }
+]
